@@ -1,0 +1,49 @@
+.contacts {
+width: 100%;
+height: 450px;
+text-align: center;
+	&__title {
+		font-size: 34px;
+      line-height: 42px;
+		margin: 114px 0 20px 0;
+	}
+	&__text {
+		font-family: 'Gilroy';
+		margin: 0 0 30px 0;
+	}
+	&__button {
+		display: block;
+		width: 180px;
+		height: 42px;
+		background: #000;
+		border-radius: 50px;
+		color: white;
+		padding: 13px 0 0 0;
+		margin: 0 auto;
+	}
+	&__icons {
+		margin: 86px auto 46px;
+		width: 303px;
+		height: 40px;
+		position: relative;
+	}
+	&__icon{
+		position: absolute;
+		top: 0;
+	}
+	&__icon:first-child{
+		left: 0;
+	}
+	&__icon:nth-child(2){
+		left: 28%;
+	}
+	&__icon:nth-child(3){
+		right: 28%;
+	}
+	&__icon:last-child{
+		right: 0;
+	}
+	&__text2 {
+		font-family: 'Gilroy';
+	}
+}

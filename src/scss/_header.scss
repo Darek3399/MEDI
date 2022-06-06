@@ -1,0 +1,91 @@
+
+body{
+	font-family: 'Gilroy-Bold';
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.header {
+	margin-left: auto;
+	margin-right: auto;
+   width: 944px;
+	height: 768px;
+	&__nav {
+		border-bottom: 1px solid #828282;
+		position: relative;
+		height: 88px;
+		width: 100%;
+	}
+
+	&__nav a:hover{
+		color: black;
+	}
+	
+	&__chapter {
+		margin: 33px 0 0 0;
+		position: absolute;
+		text-align: center;
+		font-size: 18px;
+      line-height: 22px;
+		color: #828282;
+	}
+	
+	&__chapter:first-child{
+		top: 0;
+		left: 0;
+	}
+	&__chapter:nth-child(2){
+		top: 0;
+		left: 22%;
+	}
+	&__chapter:nth-child(3){
+		top: 0;
+		left: 48%;
+	}
+	&__chapter:nth-child(4){
+		top: 0;
+		left: 70%;
+	}
+	&__chapter:last-child{
+		top: 0;
+		right: 0;
+	}
+	
+	&__info {
+		height: 188.5px;
+      width: 100%;
+		position: relative;
+		margin: 0 0 0 0;
+	}
+	
+	&__name {
+		position: absolute;
+		left: 0;
+		top: 39px;
+		font-size: 47.3px;
+		line-height: 59px;
+		}
+	
+	&__years {
+		font-family: "Gilroy";
+		position: absolute;
+		width: 130px;
+		left: 45%;
+		bottom: 42px;
+	}
+	
+	&__lang {
+		position: absolute;
+		transform: rotate(-90deg);
+		width:60px;
+		right: -23px;
+		bottom: 68px;
+	}
+	
+	&__foto {
+		max-width: 944px;
+		max-height: 387px;
+	}
+}

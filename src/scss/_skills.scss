@@ -1,0 +1,49 @@
+.skills {
+   text-align: center;
+	height: 610px;
+	&__title {
+		margin: 91px 0 0 0;
+		font-size: 34px;
+   line-height: 42px;
+	}
+	&__text {
+		margin: 69px 0 83px 0;
+		font-family: "Gilroy";
+		font-size: 18px;
+   line-height: 22px;
+	}
+	&__columns {
+		position: relative;
+		height: 206.27px;
+		width: 944px;
+		margin: 0 auto 0 auto;
+		width: 944px;
+	}
+	&__column {
+		position: absolute;
+		top: 0;
+	}
+	&__column:first-child{
+		left: 0;
+	}
+	&__column:nth-child(2){
+		left: 27%;
+	}
+	&__column:nth-child(3){
+		right: 28%;
+	}
+	&__column:nth-child(4){
+		right: 0;
+	}
+	&__img {
+		border-radius: 1px;
+	}
+	&__textname {
+		margin: 23px 0 0 0;}
+	&__stars {
+		margin: 41.5px 0 0 0;}
+	.revers{
+		transform: rotate(180deg);
+		margin: 57px 0 0 0;
+	}
+	}
